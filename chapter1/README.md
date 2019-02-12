@@ -39,7 +39,7 @@ when to disterbute?
 4. incrace number of requests per second
 
 ## Maintaiability
-keep a system oprational, investigating bugs, adapting to new platforms, modifing for new use cases,repaying technical dept, adding new features.
+keep a system oprational, investigating bugs, adapting to new platforms, modifing for new use cases,repaying technical dept, adding new features.  
 Design principles for software :
 1. Oprability :  
 Make it easy for oprations team to keep the system running smothly.
