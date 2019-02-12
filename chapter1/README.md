@@ -33,7 +33,7 @@ Presure is a system like a more user request or havier database
 
 stateless applications can disterbute.
 when to disterbute?
-1. read limittion of hard
+1. read limitation of hard
 2. write limitation of hard
 3. storage space is limited
 4. incrace number of requests per second
