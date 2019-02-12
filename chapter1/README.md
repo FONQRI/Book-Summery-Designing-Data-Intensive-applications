@@ -46,17 +46,17 @@ Make it easy for oprations team to keep the system running smothly.
 keep routing tasks easy and automated to operations team focus on more important tasks.
 provide good default values but give administrators ability to change them.
 2. Simplicity  
-Make it easy for new enginiering to understane the system, by removing as much compexiti as possible from the system.(Note this is not the same as simplicity of the user interface).  
+Make it easy for new enginiering to understane the system, by removing as much compexity as possible from the system.(Note this is not the same as simplicity of the user interface).  
 symptoms of complexity:
-   * explonation of the state space
+   * explanation of the state space
    * tight coupling of modules 
-   * tagled dependencies
+   * tangled dependencies
    * inconsictence naming and terminology
    * hacks aimed at solving performance problems
    * special-casting to work around issues elsewhere
    * etc
 Abstraction can help us to simplify system but a good defined abstraction.
 3. Evolvability  
-Make it easy to for enginiering to make change to the system in the future, adapting it for uninticupated use cases as requirments change. also known as extensibility, modifiability, or plasticity.
+Make it easy for enginiering to make change to the system in the future, adapting it for unanticipated use cases as requirments change. also known as extensibility, modifiability, or plasticity.
 increase ability of system for making it easy-to-change.
 
