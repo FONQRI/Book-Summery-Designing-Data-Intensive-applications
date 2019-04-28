@@ -4,21 +4,26 @@
 The best-known data model today is probably that of SQL, based on the relational
 model. The goal of the relational model was to hide that implementation detail behind a cleaner interface.Query language like sql give more room to database for optimizing and paralelizing but not sure on data order.
 ### Representing a LinkedIn profile using a relational schema. Photo of Bill Gates courtesy of Wikimedia Commons, Ricardo Stuckert, Agência Brasil.
+
 ![Representing a LinkedIn profile using a relational schema](Representing a LinkedIn profile using a relational schema.png)
 
 ### Representing a LinkedIn profile as a JSON document
+
 ![Representing a LinkedIn profile as a JSON document](Representing a LinkedIn profile as a JSON document.png)
 
 The JSON representation has better locality than the multi-table schema in. If you want to fetch a profile in the relational example, you need to either
 perform multiple queries (query each table by user_id ) or perform a messy multi-
 way join between the users table and its subordinate tables. In the JSON representa‐
 tion, all the relevant information is in one place, and one query is sufficient.
+
 ![One-to-many relationships forming a tree structure](One-to-many relationships forming a tree structure.png)
 
 For many-to-one relationships we can use id instade of plain-text like this : 
+
 ![The company name is not just a string, but a link to a company entity](The company name is not just a string, but a link to a company entity.png)
 
 ### Extending resumes with many-to-many relationships :
+
 ![Extending resumes with many-to-many relationships](Extending resumes with many-to-many relationships.png)
 
 ## The network model
@@ -139,6 +144,7 @@ for (var i = 0; i < liElements.length; i++) {
 ```
 
 ## Graph-Like Data Models
+
 ![Example of graph-structured data](Example of graph-structured data.png)
 
 ### Property Graphs
@@ -246,7 +252,8 @@ JOIN lives_in_europe ON vertices.vertex_id = lives_in_europe.vertex_id;
 In a triple-store, all information is stored in the form of very simple three-part state‐
 ments: (subject, predicate, object). For example, in the triple (Jim, likes, bananas), Jim
 is the subject, likes is the predicate (verb), and bananas is the object.
-A subset of the data in Table, represented as Turtle triples :
+A subset of the data in Table, represented as Turtle triples :  
+
 ![A subset of the data in graph-structured data represented as Turtle triples](A subset of the data in graph-structured data represented as Turtle triples.png)
 
 ## and more 
