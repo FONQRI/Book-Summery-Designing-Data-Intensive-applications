@@ -21,8 +21,8 @@ Leader and followers architecture keep a copy of all data from leader in followe
 
 Capturing causal dependencies between two clients concurrently editing a
 shopping cart
-![Capturing causal dependencies between two clients concurrently editing a shopping cart](Capturing causal dependencies between two clients concurrently editing a shopping cart.png)
+![Capturing causal dependencies between two clients concurrently editing a shopping cart](Capturing-causal-dependencies-between-two-clients-concurrently-editing-a-shopping-cart.png)
 
 Graph of causal dependencies
-![Graph of causal dependencies](Graph of causal dependencies.png)
+![Graph of causal dependencies](Graph-of-causal-dependencies.png)
 

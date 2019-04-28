@@ -6,26 +6,26 @@ model. The goal of the relational model was to hide that implementation detail b
 ### Representing a LinkedIn profile using a relational schema.
  Photo of Bill Gates courtesy of Wikimedia Commons, Ricardo Stuckert, Agência Brasil.
 
-![Representing a LinkedIn profile using a relational schema](Representing a LinkedIn profile using a relational schema.png)
+![Representing a LinkedIn profile using a relational schema](Representing-a-LinkedIn-profile-using-a-relational-schema.png)
 
 ### Representing a LinkedIn profile as a JSON document
 
-![Representing a LinkedIn profile as a JSON document](Representing a LinkedIn profile as a JSON document.png)
+![Representing a LinkedIn profile as a JSON document](Representing_LinkedIn_profile_JSON_document.png)
 
 The JSON representation has better locality than the multi-table schema in. If you want to fetch a profile in the relational example, you need to either
 perform multiple queries (query each table by user_id ) or perform a messy multi-
 way join between the users table and its subordinate tables. In the JSON representa‐
 tion, all the relevant information is in one place, and one query is sufficient.
 
-![One-to-many relationships forming a tree structure](One-to-many relationships forming a tree structure.png)
+![One-to-many relationships forming a tree structure](One-to-many-relationships-forming-a-tree-structure.png)
 
 For many-to-one relationships we can use id instade of plain-text like this : 
 
-![The company name is not just a string, but a link to a company entity](The company name is not just a string, but a link to a company entity.png)
+![The company name is not just a string, but a link to a company entity](The-company-name-is-not-just-a-string,-but-a-link-to-a-company-entity.png)
 
 ### Extending resumes with many-to-many relationships :
 
-![Extending resumes with many-to-many relationships](Extending resumes with many-to-many relationships.png)
+![Extending resumes with many-to-many relationships](Extendingresumeswithmany-to-manyrelationships.png)
 
 ## The network model
 For example, there could be one
@@ -146,7 +146,7 @@ for (var i = 0; i < liElements.length; i++) {
 
 ## Graph-Like Data Models
 
-![Example of graph-structured data](Example of graph-structured data.png)
+![Example of graph-structured data](Exampleofgraph-structureddata.png)
 
 ### Property Graphs
 In the property graph model, each vertex consists of:
@@ -255,7 +255,7 @@ ments: (subject, predicate, object). For example, in the triple (Jim, likes, ban
 is the subject, likes is the predicate (verb), and bananas is the object.
 A subset of the data in Table, represented as Turtle triples :  
 
-![A subset of the data in graph-structured data represented as Turtle triples](A subset of the data in graph-structured data represented as Turtle triples.png)
+![A subset of the data in graph-structured data represented as Turtle triples](Asubsetofthedataingraph-structureddatarepresentedasTurtletriples.png)
 
 ## and more 
 * The semantic web : If you read more about triple-stores, you may get sucked into a maelstrom of articles written about the semantic web
@@ -263,7 +263,7 @@ A subset of the data in Table, represented as Turtle triples :
 * The SPARQL query language : SPARQL is a query language for triple-stores using the RDF data model
 * The Foundation: Datalog : Datalog is a much older language than SPARQL or Cypher
 A subset of the data in graph-structured data, represented as Datalog facts:
-![A subset of the data in graph-structured data represented as Datalog facts](A subset of the data in graph-structured data represented as Datalog facts.png)
+![A subset of the data in graph-structured data represented as Datalog facts](Asubsetofthedataingraph-structureddatarepresentedasDatalogfacts.png)
 
 The same query as Example 2-4 expressed in Datalog :
 [The same query as Example 2-4 expressed in Datalog](The same query as Example 2-4 expressed in Datalog.png)

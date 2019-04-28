@@ -25,7 +25,7 @@ This is a problem when dealing with large numbers; for example, integers greater
 ## Binary encoding
 ### Json
 Example record in json 81 byte
-![Example record](Example record.png)
+![Example record](Example-record.png)
 
 ### MessagePack
 Example record in MessagePack 66 byte
@@ -48,7 +48,7 @@ Example record in Thrift CompactProtocol 34 byte
 
 ### Protocol Buffers
 Example record in Protocol Buffers 33 byte
-![Protocol Buffers](Protocol Buffers.png)
+![Protocol Buffers](Protocol-Buffers.png)
 
 ### Avro
 Example record in Protocol Buffers 32 byte
@@ -59,7 +59,7 @@ Avro
 * reader’s schema
 An Avro reader resolves differences between the writer’s schema and the
 reader’s schema.
-![Avro writer’s schema and the reader’s schema](Avro writer’s schema and the reader’s schema.png)
+![Avro writer’s schema and the reader’s schema](Avro-writers-schema-and-the-readers-schema.png)
 
 ## Backward and forward compatibility
 Backward and forward compatibility in binary encoding formats means if a field is required you cant remove it and only optional field can be removed and also only optional field can be added or required field with default values and you can not use a tag twice 
