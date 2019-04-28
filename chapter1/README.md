@@ -29,7 +29,7 @@ If all those things together mean "working correctly" then we can underestand re
 Presure is a system like a more user request or havier database
 ### Performance:
 1. When Increase load parameter and keep resources unchanged how your performance affects ?
-2. When Increase load parameter How much do you need to incrace resources to keep performance same ?
+2. When Increase load parameter How much do you need to increase resources to keep performance same ?
 
 stateless applications can disterbute.
 when to disterbute?
