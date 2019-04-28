@@ -3,7 +3,8 @@
 ## Relational Model Versus Document Model
 The best-known data model today is probably that of SQL, based on the relational
 model. The goal of the relational model was to hide that implementation detail behind a cleaner interface.Query language like sql give more room to database for optimizing and paralelizing but not sure on data order.
-### Representing a LinkedIn profile using a relational schema. Photo of Bill Gates courtesy of Wikimedia Commons, Ricardo Stuckert, Agência Brasil.
+### Representing a LinkedIn profile using a relational schema.
+ Photo of Bill Gates courtesy of Wikimedia Commons, Ricardo Stuckert, Agência Brasil.
 
 ![Representing a LinkedIn profile using a relational schema](Representing a LinkedIn profile using a relational schema.png)
 
